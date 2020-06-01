@@ -55,7 +55,7 @@ li a {
 }
 
 li a:hover {
-  background-color:#4CAF50;
+  background-color: #555;
   color: white;
 }
 
@@ -207,6 +207,7 @@ li a:hover {
 
 .navbar1 {
   background-color: #f2f2f2;
+  
 }
 
 .navbar1.col-8,
@@ -216,6 +217,11 @@ li a:hover {
        -o-transition: none;
           transition: none; 
 }
+
+.active a {
+  color: #f44336;
+}
+
 
 .content1.col {
   min-width: 100%; 
@@ -233,8 +239,4 @@ li a:hover {
 marquee img {
   height: 100vh;
   max-height: 500px;
-}
-
-.active a {
-  color: #4caf50;
 }
