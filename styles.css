@@ -56,7 +56,7 @@ li a {
 
 li a:hover {
   background-color: #555;
-  color: white;
+  color: #4CAF50;
 }
 
 
@@ -233,4 +233,8 @@ li a:hover {
 marquee img {
   height: 100vh;
   max-height: 500px;
+}
+
+.active a {
+  color: #4caf50;
 }
